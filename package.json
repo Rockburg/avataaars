@@ -1,6 +1,9 @@
 {
   "name": "react-server-render-demo",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.8.0"
+  },
   "author": "Tilo Mitra <tilomitra@gmail.com>",
   "private": true,
   "scripts": {
@@ -9,6 +12,8 @@
     "buildWithWatch": "./node_modules/webpack/bin/webpack.js --watch"
   },
   "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
     "avataaars": "^1.1.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
